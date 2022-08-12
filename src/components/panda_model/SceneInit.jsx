@@ -30,9 +30,10 @@ export default class SceneInit {
     this.camera = new THREE.PerspectiveCamera(
       this.fov,
       window.innerWidth / window.innerHeight,
-      1,
-      1000
+      0.01,
+      50000
     )
+
     this.camera.position.z = 48
 
     // NOTE: Specify a canvas which is already created in the HTML.

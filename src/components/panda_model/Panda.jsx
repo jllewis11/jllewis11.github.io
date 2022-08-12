@@ -1,4 +1,9 @@
 import { useEffect } from 'react'
+
+import * as THREE from 'three'
+// import { FBXLoader } from 'three/examples/jsm/loaders/FBXLoader';
+// import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
+// import { VOXLoader } from 'three/examples/jsm/loaders/VOXLoader';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 
 import SceneInit from './SceneInit'
@@ -16,7 +21,7 @@ function Panda() {
 
     let loadedModel
     const glftLoader = new GLTFLoader()
-    glftLoader.load('src/assets/Panda.gltf', gltfScene => {
+    glftLoader.load('http://127.0.0.1:5500/public/Panda.glb', gltfScene => {
       loadedModel = gltfScene
       console.log(loadedModel)
 
@@ -25,16 +30,6 @@ function Panda() {
       gltfScene.scene.scale.set(10, 10, 10)
       test.scene.add(gltfScene.scene)
     })
-
-    const animate = () => {
-      if (loadedModel) {
-        loadedModel.scene.rotation.x += 0.01
-        loadedModel.scene.rotation.y += 0.01
-        loadedModel.scene.rotation.z += 0.01
-      }
-      requestAnimationFrame(animate)
-    }
-    animate()
   }, [])
 
   return (
