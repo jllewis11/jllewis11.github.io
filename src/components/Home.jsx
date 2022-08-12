@@ -2,8 +2,8 @@ import React from 'react'
 //import HeroImage from '../assets/heroImage.jpg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll'
-import { Three } from './panda_model/PandaView.jsx'
 
+import Panda from './panda_model/Panda'
 const Home = () => {
   return (
     <div
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
 
         <div className="rounded-2xl mx-auto w-1/2 md:w-3/5">
-          <Three />
+          <Panda />
           {/* <img
             src={HeroImage}
             alt="my profile"
