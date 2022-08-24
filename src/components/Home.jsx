@@ -1,8 +1,8 @@
 import React from 'react'
-//import HeroImage from '../assets/heroImage.jpg'
+import HeroImage from '../assets/heroImage.jpg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll'
-import { Three } from './panda_model/PandaView.jsx'
+//import Panda from './panda_model/Panda'
 
 const Home = () => {
   return (
@@ -16,9 +16,7 @@ const Home = () => {
             Software Engineer
           </h4>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            
           </p>
 
           <div>
@@ -37,13 +35,13 @@ const Home = () => {
         </div>
 
         <div className="rounded-2xl mx-auto w-1/2 md:w-3/5">
-          <Three />
-          {/* <img
+          {/* <Panda /> */}
+          <img
             src={HeroImage}
             alt="my profile"
             //rounded-2xl mx-auto w-2/3 md:w-full with smaller image size
             className="rounded-2xl mx-auto w-1/2 md:w-3/5"
-          /> */}
+          />
         </div>
       </div>
     </div>
