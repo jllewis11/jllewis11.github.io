@@ -15,9 +15,7 @@ const Home = () => {
           <h4 className="text-4xl sm:text-7xl font-bold text-white">
             Software Engineer
           </h4>
-          <p className="text-gray-500 py-4 max-w-md">
-            
-          </p>
+          <p className="text-gray-500 py-4 max-w-md"></p>
 
           <div>
             <Link
