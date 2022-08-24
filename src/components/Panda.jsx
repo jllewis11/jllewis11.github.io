@@ -4,7 +4,7 @@ const LazyPanda = React.lazy(() => import('./panda_model/PandaViewer'))
 const Panda = () => {
   return (
     <div
-      name="about"
+      name="Panda"
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
