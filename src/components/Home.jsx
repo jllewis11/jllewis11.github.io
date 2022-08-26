@@ -16,8 +16,10 @@ const Home = () => {
             Software Engineer
           </h4>
           <p className="text-gray-500 py-4 max-w-md">
-            Currently, I am a Senior at California State University, Fullerton where I am pursuing a B.S. in Computer Science. 
-            I am proficient in Python, C++, and Typescript. I have some experience working with React, Node.js, GraphQL, and SQL databases.
+            Currently, I am a Senior at California State University, Fullerton
+            where I am pursuing a B.S. in Computer Science. I am proficient in
+            Python, C++, and Typescript. I have some experience working with
+            React, Node.js, GraphQL, and SQL databases.
           </p>
 
           <div>
