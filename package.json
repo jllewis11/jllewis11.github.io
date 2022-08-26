@@ -2,6 +2,7 @@
   "name": "one-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jllewis11.github.io",
   "dependencies": {
     "@chakra-ui/react": "^2.2.6",
     "@react-three/drei": "^9.20.0",
@@ -23,7 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
