@@ -1,26 +1,24 @@
 import React from 'react'
 
-import html from '../assets/html.png'
-import css from '../assets/css.png'
+import python from '../assets/python.png'
+import golang from '../assets/golang.png'
 import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
-import nextjs from '../assets/nextjs.png'
-import graphql from '../assets/graphql.png'
 import github from '../assets/github.png'
-import tailwind from '../assets/tailwind.png'
+import cpp from '../assets/cpp.png'
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: 'HTML',
-      style: 'shadow-orange-500'
+      src: python,
+      title: 'Python',
+      style: 'shadow-yellow-500'
     },
     {
       id: 2,
-      src: css,
-      title: 'CSS',
+      src: cpp,
+      title: 'C++',
       style: 'shadow-blue-500'
     },
     {
@@ -37,24 +35,12 @@ const Experience = () => {
     },
     {
       id: 5,
-      src: tailwind,
-      title: 'Tailwind',
+      src: golang,
+      title: 'Golang',
       style: 'shadow-sky-400'
     },
     {
       id: 6,
-      src: nextjs,
-      title: 'Next JS',
-      style: 'shadow-white'
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: 'GraphQL',
-      style: 'shadow-pink-400'
-    },
-    {
-      id: 8,
       src: github,
       title: 'GitHub',
       style: 'shadow-gray-400'
