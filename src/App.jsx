@@ -1,4 +1,5 @@
 //import About from './components/About'
+import React, { useEffect } from 'react'
 import Experience from './components/Experience'
 import Home from './components/Home'
 import NavBar from './components/NavBar'
@@ -6,14 +7,14 @@ import NavBar from './components/NavBar'
 import SocialLinks from './components/SocialLinks'
 
 function App() {
+  useEffect(() => {
+    document.title = "Jerry's Portfolio"
+  }, [])
   return (
     <div>
       <NavBar />
-
       <Home />
-
       <Experience />
-
       <SocialLinks />
     </div>
   )
