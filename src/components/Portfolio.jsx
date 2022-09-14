@@ -1,8 +1,8 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import sqlpng from '../assets/portfolio/SQL.png'
+import csuf from '../assets/portfolio/csuf.png'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
@@ -10,27 +10,33 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct
+      src: sqlpng,
+      link: 'https://github.com/jllewis11/SQL-Database-Project'
     },
     {
       id: 2,
-      src: reactParallax
+      src: csuf,
+      link: 'https://github.com/jllewis11/titan-talks-2.0'
     },
     {
       id: 3,
-      src: navbar
+      src: navbar,
+      link: 'https://github.com/jllewis11/Backend-CRUD'
     },
     {
       id: 4,
-      src: reactSmooth
+      src: reactSmooth,
+      link: 'https://github.com/jllewis11/WorkleV3'
     },
     {
       id: 5,
-      src: installNode
+      src: installNode,
+      link: 'https://github.com/jllewis11/Data-Structures-in-Go'
     },
     {
       id: 6,
-      src: reactWeather
+      src: reactWeather,
+      link: 'https://github.com/jllewis11/jllewis11.github.io'
     }
   ]
 
@@ -48,7 +54,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
