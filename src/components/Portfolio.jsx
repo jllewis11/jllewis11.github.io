@@ -1,6 +1,6 @@
 import React from 'react'
 import sqlpng from '../assets/portfolio/SQL.png'
-import csuf from '../assets/portfolio/csuf.jpg'
+import csuf from '../assets/portfolio/csuf.png'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
