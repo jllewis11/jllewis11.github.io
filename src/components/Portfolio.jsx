@@ -1,10 +1,10 @@
 import React from 'react'
 import sqlpng from '../assets/portfolio/SQL.png'
 import csuf from '../assets/portfolio/csuf.png'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import dsgo from '../assets/portfolio/DSGO.png'
+import lessons from '../assets/portfolio/lessons.png'
+import workle from '../assets/portfolio/workle.png'
+import portfolio from '../assets/portfolio/portfolio.png'
 
 const Portfolio = () => {
   const portfolios = [
@@ -20,22 +20,22 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: navbar,
-      link: 'https://github.com/jllewis11/Backend-CRUD'
+      src: lessons,
+      link: 'https://github.com/jllewis11/Python-Project-Lessons'
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: workle,
       link: 'https://github.com/jllewis11/WorkleV3'
     },
     {
       id: 5,
-      src: installNode,
+      src: dsgo,
       link: 'https://github.com/jllewis11/Data-Structures-in-Go'
     },
     {
       id: 6,
-      src: reactWeather,
+      src: portfolio,
       link: 'https://github.com/jllewis11/jllewis11.github.io'
     }
   ]
