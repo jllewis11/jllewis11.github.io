@@ -2,6 +2,7 @@
   "name": "one-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jllewis11.github.io",
   "dependencies": {
     "@chakra-ui/react": "^2.2.6",
     "@react-three/drei": "^9.20.0",
@@ -9,7 +10,9 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
     "framer-motion": "^7.0.0",
+    "gh-pages": "^4.0.0",
     "gsap": "^3.10.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -23,7 +26,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
