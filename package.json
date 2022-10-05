@@ -14,8 +14,8 @@
     "framer-motion": "^7.0.0",
     "gh-pages": "^4.0.0",
     "gsap": "^3.10.4",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.7",
@@ -53,7 +53,6 @@
     "eslint-config-next": "^12.2.4",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.0.24",
-    "three": "^0.143.0"
+    "tailwindcss": "^3.0.24"
   }
 }
