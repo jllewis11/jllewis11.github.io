@@ -1,7 +1,5 @@
 # Portfolio Website
 
-
-
 ## Available Scripts
 
 ### npm run format
