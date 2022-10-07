@@ -1,10 +1,13 @@
 {
-  "name": "one-portfolio",
+  "name": "Jerry's Portfolio",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://jllewis11.github.io",
   "dependencies": {
     "@chakra-ui/react": "^2.2.6",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.8",
     "@react-three/drei": "^9.20.0",
     "@react-three/fiber": "^8.3.1",
     "@testing-library/jest-dom": "^5.16.4",
