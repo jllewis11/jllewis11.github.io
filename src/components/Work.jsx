@@ -53,7 +53,7 @@ const card = () => {
     <div className="grid sm:grid-cols-2 md:grid-cols-1 gap-8 px-12 sm:px-0">
       {workexp.map(({ id, title, company, location, date, description }) => (
         <div key={id}>
-          <Card sx={{ minWidth: 275 }} style={{backgroundColor: "black"}}>
+          <Card sx={{ minWidth: 275 }} style={{ backgroundColor: 'black' }}>
             <CardContent>
               <Typography variant="h5" component="div" color="white">
                 {title}
@@ -61,25 +61,15 @@ const card = () => {
               <Typography sx={{ mb: 1.5 }} color="white">
                 {company}
               </Typography>
-              <Typography
-                sx={{ fontSize: 14 }}
-                color="white"
-                gutterBottom
-              >
+              <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
                 {location}
               </Typography>
-              <Typography
-                sx={{ fontSize: 14 }}
-                color="white"
-                gutterBottom
-              >
+              <Typography sx={{ fontSize: 14 }} color="white" gutterBottom>
                 {date}
               </Typography>
               <Typography variant="body2" color="white">
                 {description.map(d => {
-                  return(
-                  <div key={d}> {d}</div>
-                  )
+                  return <div key={d}> {d}</div>
                 })}
               </Typography>
             </CardContent>
@@ -93,7 +83,7 @@ const card = () => {
 const WorkExperience = () => {
   return (
     <div
-      name="Work-Experience"
+      name="work"
       className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
