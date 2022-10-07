@@ -2,8 +2,6 @@
 
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -25,52 +23,48 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 Features: Portfolio website featuring projects, experience, and languages
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
-* [NodeJS](https://nodejs.org/en/)
-* [React](https://reactjs.org/)
-* [Github Pages](https://pages.github.com/)
-
+- [NodeJS](https://nodejs.org/en/)
+- [React](https://reactjs.org/)
+- [Github Pages](https://pages.github.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ### Prerequisites
- - Node v18.4.0
+
+- Node v18.4.0
 
 ### Installation and Run
+
 Step 1: Download packages from package.json<br/>
-```npm i```<br/>
+`npm i`<br/>
 
 Step 2: Start a local Server<br/>
-```npm run start```<br/>
+`npm run start`<br/>
 
 ### Avaliable Scripts
 
 Format: prettier<br/>
-```npm run format```<br/>
+`npm run format`<br/>
 
 Predeploys a build and deploys a build using gh-pages to github pages<br/>
-```npm run deploy```<br/>
+`npm run deploy`<br/>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ## Bugs
+
 Bugs: None
 
 <p align="right">(<a href="#top">back to top</a>)</p>
