@@ -53,7 +53,14 @@ const card = () => {
     <div className="grid sm:grid-cols-2 md:grid-cols-1 gap-8 px-12 sm:px-0">
       {workexp.map(({ id, title, company, location, date, description }) => (
         <div key={id}>
-          <Card sx={{ minWidth: 275, backgroundColor: 'transparent', border: 1, borderColor: 'gray'}}>
+          <Card
+            sx={{
+              minWidth: 275,
+              backgroundColor: 'transparent',
+              border: 1,
+              borderColor: 'gray'
+            }}
+          >
             <CardContent>
               <Typography variant="h5" component="div" color="white">
                 {title}
