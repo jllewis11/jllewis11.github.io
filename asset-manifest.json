@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.a5d63292.css",
-    "main.js": "/static/js/main.cc5db75d.js",
+    "main.js": "/static/js/main.28395151.js",
+    "static/media/AudioConvert.png": "/static/media/AudioConvert.5e5bb1e10de3401046ca.png",
     "static/media/heroImage.jpg": "/static/media/heroImage.ead88f9220438e82f277.jpg",
     "static/media/workle.png": "/static/media/workle.ca7e1ea1c66dc0747001.png",
     "static/media/csuf.png": "/static/media/csuf.654fc780246a01466d79.png",
     "static/media/lessons.png": "/static/media/lessons.dfa0d2f2106186e1fd43.png",
-    "static/media/DSGO.png": "/static/media/DSGO.fada5929505361db1d2d.png",
     "static/media/SQL.png": "/static/media/SQL.beb1506656cb89dfee62.png",
     "static/media/portfolio.png": "/static/media/portfolio.4fdd309570ea0cf1f4af.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -17,10 +17,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.a5d63292.css.map": "/static/css/main.a5d63292.css.map",
-    "main.cc5db75d.js.map": "/static/js/main.cc5db75d.js.map"
+    "main.28395151.js.map": "/static/js/main.28395151.js.map"
   },
   "entrypoints": [
     "static/css/main.a5d63292.css",
-    "static/js/main.cc5db75d.js"
+    "static/js/main.28395151.js"
   ]
 }
