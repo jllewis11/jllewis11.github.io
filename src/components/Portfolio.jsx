@@ -1,7 +1,7 @@
 import React from 'react'
 import sqlpng from '../assets/portfolio/SQL.png'
 import csuf from '../assets/portfolio/csuf.png'
-import dsgo from '../assets/portfolio/DSGO.png'
+import audioconvert from '../assets/portfolio/AudioConvert.png'
 import lessons from '../assets/portfolio/lessons.png'
 import workle from '../assets/portfolio/workle.png'
 import portfolio from '../assets/portfolio/portfolio.png'
@@ -30,8 +30,8 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: dsgo,
-      link: 'https://github.com/jllewis11/Data-Structures-in-Go'
+      src: audioconvert,
+      link: 'https://github.com/jllewis11/Audio-Convert'
     },
     {
       id: 6,
