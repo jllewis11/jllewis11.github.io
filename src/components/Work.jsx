@@ -9,20 +9,31 @@ import Typography from '@mui/material/Typography'
 const workexp = [
   {
     id: 1,
-    title: 'Software Engineer and Research Intern',
-    company:
-      'University of Southern California - Institute for Creative Technologies',
-    location: 'Playa Vista, CA',
-    date: 'June 2022 - August 2022',
+    title: 'Software Engineer',
+    company: 'WeCracked',
+    location: 'Remote',
+    date: 'March 2024 – January 2025',
     description: [
-      '- Expanded website capabilities of existing content registration portal to allow for web-authored content using React.js and Node.js.',
-      '- Implemented automated tests to ensure reliability and code quality with Cypress Testing Framework.',
-      '- Developed a Python script algorithm that determined permutations of sentences, increasing efficiency greatly.',
-      '- Analyzed video and audio data for a machine learning task evaluating a US Army fireteam’s performance.'
+      '- Developed a Next.js platform to efficiently help students track hackathons and major tech events.',
+      '- Led a cross-functional team of 7 to launch the platform, achieving over 3K+ users within three months.',
+      '- Developed a Discord AI support system to assist 2K+ weekly active users by generating RAG responses with Pinecone to common questions, improving user support and reducing the load on moderators.'
     ]
   },
   {
     id: 2,
+    title: 'Software Engineer and Research Intern',
+    company: 'USC ICT',
+    location: 'Playa Vista, CA',
+    date: 'June 2022 – August 2022',
+    description: [
+      '- Built interactive web-authoring tools using React.js for a DoD-funded platform supporting a secure CMS system.',
+      '- Engineered testing pipelines with Cypress testing, ensuring code coverage and improving software reliability.',
+      '- Accelerated NLP workflows by optimizing Python scripts for large-scale sentence permutation generations.',
+      '- Implemented a pipeline to streamline processing of over 200+ military training video and audio datasets, extracting actionable insights for an Army-sponsored machine learning research initiative.'
+    ]
+  },
+  {
+    id: 3,
     title: 'Undergraduate Student Researcher',
     company: 'California State University, Fullerton',
     location: 'Fullerton, CA',
@@ -33,7 +44,7 @@ const workexp = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: 'Code Coach',
     company: 'theCoderSchool - Cerritos',
     location: 'Cerritos, CA',
